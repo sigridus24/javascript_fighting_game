@@ -1,0 +1,7 @@
+class Ship extends Phaser.Physics.Arcade.Images {
+    constructor(scene, x, y) {
+        super(scene, x, y, 'ship');
+    }
+}
+
+class scene extend Phaser.Scene preload
